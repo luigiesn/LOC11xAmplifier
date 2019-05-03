@@ -410,21 +410,6 @@ Wire Wire Line
 Connection ~ 7450 3200
 Text Label 8000 2950 0    50   ~ 0
 OUT_GND
-$Comp
-L Resistor:RC0603FR-0791RL R10
-U 1 1 5CCBF31E
-P 3350 5000
-F 0 "R10" V 3159 5000 50  0000 C CNN
-F 1 "RC0603FR-0791RL" H 3350 4600 50  0001 C CNN
-F 2 "footprints:RES_0603" H 3350 5400 50  0001 C CNN
-F 3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" H 3350 5500 50  0001 C CNN
-F 4 "91" V 3243 5000 40  0000 C CNN "Friendly Name"
-F 5 "Yageo" H 3350 4450 50  0001 C CNN "Manufactor"
-F 6 "RC0603FR-0791RL" H 3350 4350 50  0001 C CNN "Part Number"
-F 7 "Thick Film Resistors - 91ohms 1% SMD 0603" H 3350 4200 50  0001 C CNN "Description"
-	1    3350 5000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3100 5000 3200 5000
 $Comp
@@ -564,4 +549,19 @@ $EndComp
 Wire Wire Line
 	3650 5600 3800 5600
 Connection ~ 3650 5600
+$Comp
+L Resistor:RC0603FR-0743RL R10
+U 1 1 5CCD1ADE
+P 3350 5000
+F 0 "R10" V 3159 5000 50  0000 C CNN
+F 1 "RC0603FR-0743RL" H 3350 4600 50  0001 C CNN
+F 2 "footprints:RES_0603" H 3350 5400 50  0001 C CNN
+F 3 "kicadlib/datasheet/RC_L_Series.pdf" H 3350 5500 50  0001 C CNN
+F 4 "43" V 3243 5000 40  0000 C CNN "Friendly Name"
+F 5 "Yageo" H 3350 4450 50  0001 C CNN "Manufactor"
+F 6 "RC0603FR-0743RL" H 3350 4350 50  0001 C CNN "Part Number"
+F 7 "Thick Film Resistors - 43ohms 1% SMD 0603" H 3350 4200 50  0001 C CNN "Description"
+	1    3350 5000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
