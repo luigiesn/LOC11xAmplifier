@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LOC110PTR
+D Single Linear Optocoupler 0.01% Servo Lin. 2-10mA Iso 3750Vrms SMD SO-8 Flatpack
+F kicadlib\datasheet\LOC110.pdf
+$ENDCMP
+#
+#End Doc Library

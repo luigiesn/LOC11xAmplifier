@@ -1,0 +1,43 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RC0603FR-0714KL
+D Thick Film Resistors - 14kohms 1% SMD 0603
+F kicadlib/datasheet/RC_L_Series.pdf
+$ENDCMP
+#
+$CMP RC0603FR-07180KL
+D Thick Film Resistors - 180kohms 1% SMD 0603
+F kicadlib/datasheet/RC_L_Series.pdf
+$ENDCMP
+#
+$CMP RC0603FR-0721KL
+D Thick Film Resistors - 21kohms 1% SMD 0603
+F kicadlib/datasheet/RC_L_Series.pdf
+$ENDCMP
+#
+$CMP RC0603FR-0734K8L
+D Thick Film Resistors - 34.8kohms 1% SMD 0603
+F kicadlib/datasheet/RC_L_Series.pdf
+$ENDCMP
+#
+$CMP RC0603FR-07430RL
+D Thick Film Resistors - 430 ohms 1% SMD 0603
+F kicadlib/datasheet/RC_L_Series.pdf
+$ENDCMP
+#
+$CMP RC0603FR-0775KL
+D Thick Film Resistors - 75kohms 1% SMD 0603
+F kicadlib/datasheet/RC_L_Series.pdf
+$ENDCMP
+#
+$CMP RC0603FR-0791KL
+D Thick Film Resistors - 91kohms 1% SMD 0603
+F kicadlib/datasheet/RC_L_Series.pdf
+$ENDCMP
+#
+$CMP RC0603FR-0791RL
+D Thick Film Resistors - 91ohms 1% SMD 0603
+F kicadlib/datasheet/RC_L_Series.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,567 @@
+EESchema Schematic File Version 4
+LIBS:LOC11xAmplifier-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "LOC11x Amplifier"
+Date "2019-05-01"
+Rev "1.0"
+Comp ""
+Comment1 "github: @luigiesn / insta: @luigithings"
+Comment2 "4x gain optically isolated amplifier"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Optic:LOC110PTR U2
+U 1 1 5CCA3996
+P 5750 3200
+F 0 "U2" H 5600 3600 50  0000 C CNN
+F 1 "LOC110PTR" H 5750 2450 50  0001 C CNN
+F 2 "footprints:SO8_LOC110P" H 5750 3550 50  0001 C CNN
+F 3 "${KIPRJMOD}\\kicadlib\\datasheet\\LOC110.pdf" H 5750 3650 50  0001 C CNN
+F 4 "LOC110" V 6000 3400 50  0000 C CNN "Friendly Name"
+F 5 "IXYS" H 5750 2300 50  0001 C CNN "Manufactor"
+F 6 "LOC110PTR" H 5750 2200 50  0001 C CNN "Partnumber"
+F 7 "Single Linear Optocoupler 0.01% Servo Lin. 2-10mA Iso 3750Vrms SMD SO-8 Flatpack" H 5750 2050 50  0001 C CNN "Description"
+	1    5750 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L OpAmp:TLV9001UIDBVR U1
+U 1 1 5CCA4457
+P 4350 2900
+F 0 "U1" H 4500 3100 50  0000 L CNN
+F 1 "TLV9001UIDBVR" H 4350 2250 50  0001 C CNN
+F 2 "footprints:SOT23-5_TLV9001" H 4350 3550 50  0001 C CNN
+F 3 "${KIPRJMOD}\\kicadlib\\datasheet\\tlv9001.pdf" H 4350 3650 50  0001 C CNN
+F 4 "TLV9001U" H 4500 3000 50  0000 L CNN "Friendly Name"
+F 5 "Texas Instruments" H 4350 2100 50  0001 C CNN "Manufactor"
+F 6 "TLV9001UIDBVR" H 4350 2000 50  0001 C CNN "Partnumber"
+F 7 "Op-Amp RRIP 0.4mV Offset Low Power 1-MHz SMD SOT23-5" H 4350 1850 50  0001 C CNN "Description"
+	1    4350 2900
+	1    0    0    -1  
+$EndComp
+Text Notes 5700 5700 2    50   ~ 0
+INPUT
+Text Notes 5800 5700 0    50   ~ 0
+OUTPUT
+$Comp
+L Reference:LM4040EIM3X-3.0_NOPB D2
+U 1 1 5CCA57A9
+P 3650 5300
+F 0 "D2" V 3696 5221 50  0000 R CNN
+F 1 "LM4040EIM3X-3.0_NOPB" H 3650 5050 50  0001 C CNN
+F 2 "footprints:SOT23-3_LM4040N" H 3650 5550 50  0001 C CIN
+F 3 "${KIPRJMOD}\\kicadlib\\datasheet\\lm4040-n.pdf" H 3650 5650 50  0001 C CIN
+F 4 "LM4040EIM3" V 3605 5221 50  0000 R CNN "Friendly Name"
+F 5 "Texas Instruments" H 3650 4900 50  0001 C CNN "Manufactor"
+F 6 "LM4040EIM3X-3.0_NOPB" H 3650 4800 50  0001 C CNN "Partnumber"
+F 7 "Voltage Reference 3.0V Shunt 2% 15ppm/ºC SMD SOT23-3" H 3650 4650 50  0001 C CNN "Description"
+	1    3650 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Resistor:RC0603FR-0791KL R3
+U 1 1 5CCA8727
+P 3600 2800
+F 0 "R3" V 3409 2800 50  0000 C CNN
+F 1 "RC0603FR-0791KL" H 3600 2400 50  0001 C CNN
+F 2 "footprints:RES_0603" H 3600 3200 50  0001 C CNN
+F 3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" H 3600 3300 50  0001 C CNN
+F 4 "91k" V 3493 2800 40  0000 C CNN "Friendly Name"
+F 5 "Yageo" H 3600 2250 50  0001 C CNN "Manufactor"
+F 6 "RC0603FR-0791KL" H 3600 2150 50  0001 C CNN "Part Number"
+F 7 "Thick Film Resistors - 91kohms 1% SMD 0603" H 3600 2000 50  0001 C CNN "Description"
+	1    3600 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Resistor:RC0603FR-07180KL R2
+U 1 1 5CCA8818
+P 3900 2450
+F 0 "R2" H 3970 2488 50  0000 L CNN
+F 1 "RC0603FR-07180KL" H 3900 2050 50  0001 C CNN
+F 2 "footprints:RES_0603" H 3900 2850 50  0001 C CNN
+F 3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" H 3900 2950 50  0001 C CNN
+F 4 "180k" H 3970 2404 40  0000 L CNN "Friendly Name"
+F 5 "Yageo" H 3900 1900 50  0001 C CNN "Manufactor"
+F 6 "RC0603FR-07180KL" H 3900 1800 50  0001 C CNN "Part Number"
+F 7 "Thick Film Resistors - 180kohms 1% SMD 0603" H 3900 1650 50  0001 C CNN "Description"
+	1    3900 2450
+	1    0    0    -1  
+$EndComp
+Text Label 3300 2800 2    50   ~ 0
+VIN
+Wire Wire Line
+	3300 2800 3450 2800
+Text Label 3550 5600 2    50   ~ 0
+IN_GND
+Wire Wire Line
+	3550 5600 3650 5600
+Wire Wire Line
+	3750 2800 3900 2800
+Wire Wire Line
+	3900 2600 3900 2800
+Connection ~ 3900 2800
+Wire Wire Line
+	3900 2800 4050 2800
+Wire Wire Line
+	3650 5000 3800 5000
+Wire Wire Line
+	3650 5000 3650 5150
+Wire Wire Line
+	3900 2300 3900 2200
+Text Label 3100 5000 2    50   ~ 0
+IN_SUP
+Wire Wire Line
+	3500 5000 3650 5000
+Connection ~ 3650 5000
+Wire Wire Line
+	3650 5450 3650 5600
+Text Label 3800 5000 0    50   ~ 0
+IN_3VREF
+Text Label 3750 2200 2    50   ~ 0
+IN_3VREF
+Wire Wire Line
+	3750 2200 3900 2200
+Text Label 4450 2500 0    50   ~ 0
+IN_3VREF
+Wire Wire Line
+	4300 2600 4300 2500
+Wire Wire Line
+	4300 2500 4450 2500
+Text Label 4450 3300 0    50   ~ 0
+IN_GND
+Wire Wire Line
+	4300 3200 4300 3300
+Wire Wire Line
+	4300 3300 4450 3300
+$Comp
+L Resistor:RC0603FR-0734K8L R6
+U 1 1 5CCA9FF3
+P 3950 3800
+F 0 "R6" H 3880 3762 50  0000 R CNN
+F 1 "RC0603FR-0734K8L" H 3950 3400 50  0001 C CNN
+F 2 "footprints:RES_0603" H 3950 4200 50  0001 C CNN
+F 3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" H 3950 4300 50  0001 C CNN
+F 4 "34.8k" H 3880 3846 40  0000 R CNN "Friendly Name"
+F 5 "Yageo" H 3950 3250 50  0001 C CNN "Manufactor"
+F 6 "RC0603FR-0734K8L" H 3950 3150 50  0001 C CNN "Part Number"
+F 7 "Thick Film Resistors - 34.8kohms 1% SMD 0603" H 3950 3000 50  0001 C CNN "Description"
+	1    3950 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Resistor:RC0603FR-07430RL R4
+U 1 1 5CCAA25D
+P 5200 2900
+F 0 "R4" V 5009 2900 50  0000 C CNN
+F 1 "RC0603FR-07430RL" H 5200 2500 50  0001 C CNN
+F 2 "footprints:RES_0603" H 5200 3300 50  0001 C CNN
+F 3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" H 5200 3400 50  0001 C CNN
+F 4 "430" V 5093 2900 40  0000 C CNN "Friendly Name"
+F 5 "Yageo" H 5200 2350 50  0001 C CNN "Manufactor"
+F 6 "RC0603FR-07430RL" H 5200 2250 50  0001 C CNN "Part Number"
+F 7 "Thick Film Resistors - 430 ohms 1% SMD 0603" H 5200 2100 50  0001 C CNN "Description"
+	1    5200 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 2900 4650 2900
+Wire Wire Line
+	5350 2900 5450 2900
+Text Label 5350 3100 2    50   ~ 0
+IN_GND
+Wire Wire Line
+	5350 3100 5450 3100
+Text Label 5350 3300 2    50   ~ 0
+IN_3VREF
+Wire Wire Line
+	5350 3300 5450 3300
+Wire Wire Line
+	3950 3650 3950 3500
+Wire Wire Line
+	3950 3000 4050 3000
+Wire Wire Line
+	5450 3500 3950 3500
+Connection ~ 3950 3500
+Wire Wire Line
+	3950 3500 3950 3000
+Text Label 3900 4050 2    50   ~ 0
+IN_GND
+Wire Wire Line
+	3900 4050 3950 4050
+Wire Wire Line
+	3950 4050 3950 3950
+$Comp
+L Reference:LM4040EIM3X-3.0_NOPB D1
+U 1 1 5CCABB01
+P 7750 1900
+F 0 "D1" V 7796 1821 50  0000 R CNN
+F 1 "LM4040EIM3X-3.0_NOPB" H 7750 1650 50  0001 C CNN
+F 2 "footprints:SOT23-3_LM4040N" H 7750 2150 50  0001 C CIN
+F 3 "${KIPRJMOD}\\kicadlib\\datasheet\\lm4040-n.pdf" H 7750 2250 50  0001 C CIN
+F 4 "LM4040EIM3" V 7705 1821 50  0000 R CNN "Friendly Name"
+F 5 "Texas Instruments" H 7750 1500 50  0001 C CNN "Manufactor"
+F 6 "LM4040EIM3X-3.0_NOPB" H 7750 1400 50  0001 C CNN "Partnumber"
+F 7 "Voltage Reference 3.0V Shunt 2% 15ppm/ºC SMD SOT23-3" H 7750 1250 50  0001 C CNN "Description"
+	1    7750 1900
+	0    -1   -1   0   
+$EndComp
+Text Label 7650 2200 2    50   ~ 0
+OUT_GND
+Wire Wire Line
+	7650 2200 7750 2200
+Wire Wire Line
+	7750 1600 7900 1600
+Wire Wire Line
+	7750 1600 7750 1750
+Text Label 7250 1600 2    50   ~ 0
+OUT_SUP
+Wire Wire Line
+	7650 1600 7750 1600
+Connection ~ 7750 1600
+Wire Wire Line
+	7750 2050 7750 2200
+Text Label 7900 1600 0    50   ~ 0
+OUT_3VREF
+$Comp
+L Resistor:RC0603FR-0775KL R5
+U 1 1 5CCAC273
+P 6200 3750
+F 0 "R5" H 6270 3788 50  0000 L CNN
+F 1 "RC0603FR-0775KL" H 6200 3350 50  0001 C CNN
+F 2 "footprints:RES_0603" H 6200 4150 50  0001 C CNN
+F 3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" H 6200 4250 50  0001 C CNN
+F 4 "75k" H 6270 3704 40  0000 L CNN "Friendly Name"
+F 5 "Yageo" H 6200 3200 50  0001 C CNN "Manufactor"
+F 6 "RC0603FR-0775KL" H 6200 3100 50  0001 C CNN "Part Number"
+F 7 "Thick Film Resistors - 75kohms 1% SMD 0603" H 6200 2950 50  0001 C CNN "Description"
+	1    6200 3750
+	1    0    0    -1  
+$EndComp
+Text Label 6150 3300 0    50   ~ 0
+OUT_3VREF
+Wire Wire Line
+	6150 3300 6050 3300
+Wire Wire Line
+	6200 3600 6200 3500
+Wire Wire Line
+	6200 3500 6050 3500
+Text Label 6300 4000 0    50   ~ 0
+OUT_GND
+Wire Wire Line
+	6300 4000 6200 4000
+Wire Wire Line
+	6200 4000 6200 3900
+Wire Wire Line
+	7200 3500 6200 3500
+Connection ~ 6200 3500
+Text Label 7600 3200 0    50   ~ 0
+OUT_3VREF
+Wire Wire Line
+	7450 3300 7450 3200
+Wire Wire Line
+	7450 3200 7600 3200
+Text Label 7600 4000 0    50   ~ 0
+OUT_GND
+Wire Wire Line
+	7450 3900 7450 4000
+Wire Wire Line
+	7450 4000 7600 4000
+$Comp
+L Resistor:RC0603FR-0775KL R9
+U 1 1 5CCAFB2A
+P 7100 4700
+F 0 "R9" H 7170 4738 50  0000 L CNN
+F 1 "RC0603FR-0775KL" H 7100 4300 50  0001 C CNN
+F 2 "footprints:RES_0603" H 7100 5100 50  0001 C CNN
+F 3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" H 7100 5200 50  0001 C CNN
+F 4 "75k" H 7170 4654 40  0000 L CNN "Friendly Name"
+F 5 "Yageo" H 7100 4150 50  0001 C CNN "Manufactor"
+F 6 "RC0603FR-0775KL" H 7100 4050 50  0001 C CNN "Part Number"
+F 7 "Thick Film Resistors - 75kohms 1% SMD 0603" H 7100 3900 50  0001 C CNN "Description"
+	1    7100 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4550 7100 4300
+Wire Wire Line
+	7100 3700 7200 3700
+$Comp
+L Resistor:RC0603FR-0714KL R7
+U 1 1 5CCB0244
+P 6750 4300
+F 0 "R7" V 6559 4300 50  0000 C CNN
+F 1 "RC0603FR-0714KL" H 6750 3900 50  0001 C CNN
+F 2 "footprints:RES_0603" H 6750 4700 50  0001 C CNN
+F 3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" H 6750 4800 50  0001 C CNN
+F 4 "14k" V 6643 4300 40  0000 C CNN "Friendly Name"
+F 5 "Yageo" H 6750 3750 50  0001 C CNN "Manufactor"
+F 6 "RC0603FR-0714KL" H 6750 3650 50  0001 C CNN "Part Number"
+F 7 "Thick Film Resistors - 14kohms 1% SMD 0603" H 6750 3500 50  0001 C CNN "Description"
+	1    6750 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6900 4300 7100 4300
+Connection ~ 7100 4300
+Wire Wire Line
+	7100 4300 7100 3700
+Text Label 6600 4300 2    50   ~ 0
+OUT_3VREF
+$Comp
+L OpAmp:TLV9001UIDBVR U3
+U 1 1 5CCB4FD1
+P 7500 3600
+F 0 "U3" H 7650 3800 50  0000 L CNN
+F 1 "TLV9001UIDBVR" H 7500 2950 50  0001 C CNN
+F 2 "footprints:SOT23-5_TLV9001" H 7500 4250 50  0001 C CNN
+F 3 "${KIPRJMOD}\\kicadlib\\datasheet\\tlv9001.pdf" H 7500 4350 50  0001 C CNN
+F 4 "TLV9001U" H 7650 3700 50  0000 L CNN "Friendly Name"
+F 5 "Texas Instruments" H 7500 2800 50  0001 C CNN "Manufactor"
+F 6 "TLV9001UIDBVR" H 7500 2700 50  0001 C CNN "Partnumber"
+F 7 "Op-Amp RRIP 0.4mV Offset Low Power 1-MHz SMD SOT23-5" H 7500 2550 50  0001 C CNN "Description"
+	1    7500 3600
+	1    0    0    -1  
+$EndComp
+Text Label 7150 4950 0    50   ~ 0
+OUT_GND
+Wire Wire Line
+	7100 4850 7100 4950
+Wire Wire Line
+	7100 4950 7150 4950
+$Comp
+L Resistor:RC0603FR-0721KL R8
+U 1 1 5CCB5F2C
+P 7600 4300
+F 0 "R8" V 7409 4300 50  0000 C CNN
+F 1 "RC0603FR-0721KL" H 7600 3900 50  0001 C CNN
+F 2 "footprints:RES_0603" H 7600 4700 50  0001 C CNN
+F 3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" H 7600 4800 50  0001 C CNN
+F 4 "21k" V 7493 4300 40  0000 C CNN "Friendly Name"
+F 5 "Yageo" H 7600 3750 50  0001 C CNN "Manufactor"
+F 6 "RC0603FR-0721KL" H 7600 3650 50  0001 C CNN "Part Number"
+F 7 "Thick Film Resistors - 21kohms 1% SMD 0603" H 7600 3500 50  0001 C CNN "Description"
+	1    7600 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 4300 7100 4300
+Wire Wire Line
+	7750 4300 8100 4300
+Wire Wire Line
+	8100 4300 8100 3600
+Wire Wire Line
+	8100 3600 7800 3600
+Text Label 8200 3600 0    50   ~ 0
+VOUT
+Wire Wire Line
+	8200 3600 8100 3600
+Connection ~ 8100 3600
+$Comp
+L Capacitor:CC0603MRY5V6BB105 C1
+U 1 1 5CCBA527
+P 4600 2250
+F 0 "C1" V 4364 2250 50  0000 C CNN
+F 1 "CC0603MRY5V6BB105" H 4650 1800 50  0001 C CNN
+F 2 "footprints:CAP_0603" H 4600 2700 50  0001 C CNN
+F 3 "${KIPRJMOD}/kicadlib/datasheet/SMCMC_GP_HC_Y5V.pdf" H 4600 2800 50  0001 C CNN
+F 4 "1uF" V 4448 2250 40  0000 C CNN "Friendly Name"
+F 5 "Yageo" H 4600 1650 50  0001 C CNN "Manufactor"
+F 6 "CC0603MRY5V6BB105" H 4600 1550 50  0001 C CNN "Part Number"
+F 7 "Multilayer Ceramic Capacitors MLCC - 1uF 10V 20% Y5V SMD 0603" H 4600 1400 50  0001 C CNN "Description"
+	1    4600 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 2250 4300 2250
+Wire Wire Line
+	4300 2250 4300 2500
+Connection ~ 4300 2500
+Text Label 4850 2250 0    50   ~ 0
+IN_GND
+Wire Wire Line
+	4850 2250 4750 2250
+$Comp
+L Capacitor:CC0603MRY5V6BB105 C2
+U 1 1 5CCBBD8D
+P 7750 2950
+F 0 "C2" V 7514 2950 50  0000 C CNN
+F 1 "CC0603MRY5V6BB105" H 7800 2500 50  0001 C CNN
+F 2 "footprints:CAP_0603" H 7750 3400 50  0001 C CNN
+F 3 "${KIPRJMOD}/kicadlib/datasheet/SMCMC_GP_HC_Y5V.pdf" H 7750 3500 50  0001 C CNN
+F 4 "1uF" V 7598 2950 40  0000 C CNN "Friendly Name"
+F 5 "Yageo" H 7750 2350 50  0001 C CNN "Manufactor"
+F 6 "CC0603MRY5V6BB105" H 7750 2250 50  0001 C CNN "Part Number"
+F 7 "Multilayer Ceramic Capacitors MLCC - 1uF 10V 20% Y5V SMD 0603" H 7750 2100 50  0001 C CNN "Description"
+	1    7750 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 2950 7450 2950
+Wire Wire Line
+	7450 2950 7450 3200
+Wire Wire Line
+	8000 2950 7900 2950
+Connection ~ 7450 3200
+Text Label 8000 2950 0    50   ~ 0
+OUT_GND
+$Comp
+L Resistor:RC0603FR-0791RL R10
+U 1 1 5CCBF31E
+P 3350 5000
+F 0 "R10" V 3159 5000 50  0000 C CNN
+F 1 "RC0603FR-0791RL" H 3350 4600 50  0001 C CNN
+F 2 "footprints:RES_0603" H 3350 5400 50  0001 C CNN
+F 3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" H 3350 5500 50  0001 C CNN
+F 4 "91" V 3243 5000 40  0000 C CNN "Friendly Name"
+F 5 "Yageo" H 3350 4450 50  0001 C CNN "Manufactor"
+F 6 "RC0603FR-0791RL" H 3350 4350 50  0001 C CNN "Part Number"
+F 7 "Thick Film Resistors - 91ohms 1% SMD 0603" H 3350 4200 50  0001 C CNN "Description"
+	1    3350 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3100 5000 3200 5000
+$Comp
+L Resistor:RC0603FR-0791RL R1
+U 1 1 5CCC2924
+P 7500 1600
+F 0 "R1" V 7309 1600 50  0000 C CNN
+F 1 "RC0603FR-0791RL" H 7500 1200 50  0001 C CNN
+F 2 "footprints:RES_0603" H 7500 2000 50  0001 C CNN
+F 3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" H 7500 2100 50  0001 C CNN
+F 4 "91" V 7393 1600 40  0000 C CNN "Friendly Name"
+F 5 "Yageo" H 7500 1050 50  0001 C CNN "Manufactor"
+F 6 "RC0603FR-0791RL" H 7500 950 50  0001 C CNN "Part Number"
+F 7 "Thick Film Resistors - 91ohms 1% SMD 0603" H 7500 800 50  0001 C CNN "Description"
+	1    7500 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 1600 7350 1600
+Wire Notes Line
+	5750 3700 5750 6200
+Wire Notes Line
+	5750 2700 5750 1300
+Text Label 1700 6800 0    50   ~ 0
+VIN
+Text Label 1700 6900 0    50   ~ 0
+IN_GND
+Text Label 1700 6700 0    50   ~ 0
+IN_3VREF
+Text Label 1700 7000 0    50   ~ 0
+IN_SUP
+$Comp
+L Connector:4P_PLATING1.1MM_HOLE2.54MM P1
+U 1 1 5CCD2703
+P 1350 6850
+F 0 "P1" H 1250 7050 50  0000 C CNN
+F 1 "4P_PLATING1.1MM_HOLE2.54MM" H 1350 6300 50  0001 C CNN
+F 2 "footprints:4P_PLATING1.1MM_HOLE2.54MM" H 1350 7150 50  0001 C CNN
+F 3 "-" H 1350 7250 50  0001 C CNN
+F 4 "INPUT_CONTACTS" V 1450 6850 50  0000 C CNN "Friendly Name"
+F 5 "-" H 1350 6150 50  0001 C CNN "Manufactor"
+F 6 "-" H 1350 6050 50  0001 C CNN "Partnumber"
+F 7 "4-via plating 1.1mm pitch and hole 2.54 pitch contacts" H 1350 5900 50  0001 C CNN "Description"
+	1    1350 6850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1550 6700 1700 6700
+Wire Wire Line
+	1550 6800 1700 6800
+Wire Wire Line
+	1550 6900 1700 6900
+Wire Wire Line
+	1550 7000 1700 7000
+$Comp
+L Connector:4P_PLATING1.1MM_HOLE2.54MM P2
+U 1 1 5CCDFF50
+P 3000 6850
+F 0 "P2" H 2900 6650 50  0000 C CNN
+F 1 "4P_PLATING1.1MM_HOLE2.54MM" H 3000 6300 50  0001 C CNN
+F 2 "footprints:4P_PLATING1.1MM_HOLE2.54MM" H 3000 7150 50  0001 C CNN
+F 3 "-" H 3000 7250 50  0001 C CNN
+F 4 "OUTPUT_CONTACS" V 3100 6850 50  0000 C CNN "Friendly Name"
+F 5 "-" H 3000 6150 50  0001 C CNN "Manufactor"
+F 6 "-" H 3000 6050 50  0001 C CNN "Partnumber"
+F 7 "4-via plating 1.1mm pitch and hole 2.54 pitch contacts" H 3000 5900 50  0001 C CNN "Description"
+	1    3000 6850
+	1    0    0    -1  
+$EndComp
+Text Label 2650 6700 2    50   ~ 0
+OUT_3VREF
+Text Label 2650 6900 2    50   ~ 0
+OUT_GND
+Text Label 2650 6800 2    50   ~ 0
+VOUT
+Text Label 2650 7000 2    50   ~ 0
+OUT_SUP
+Wire Wire Line
+	2650 6700 2800 6700
+Wire Wire Line
+	2650 6800 2800 6800
+Wire Wire Line
+	2800 6900 2650 6900
+Wire Wire Line
+	2650 7000 2800 7000
+$Comp
+L Flag:PWR_FLAG #FLG0101
+U 1 1 5CCFD3B6
+P 3650 4850
+F 0 "#FLG0101" H 3650 4950 50  0001 C CNN
+F 1 "PWR_FLAG" H 3650 5024 50  0000 C CNN
+F 2 "" H 3650 4850 50  0001 C CNN
+F 3 "~" H 3650 4850 50  0001 C CNN
+	1    3650 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4850 3650 5000
+$Comp
+L Flag:PWR_FLAG #FLG0102
+U 1 1 5CD0139C
+P 7750 1450
+F 0 "#FLG0102" H 7750 1550 50  0001 C CNN
+F 1 "PWR_FLAG" H 7750 1624 50  0000 C CNN
+F 2 "" H 7750 1450 50  0001 C CNN
+F 3 "~" H 7750 1450 50  0001 C CNN
+	1    7750 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 1450 7750 1600
+$Comp
+L Flag:PWR_FLAG #FLG0103
+U 1 1 5CD02B57
+P 7900 2200
+F 0 "#FLG0103" H 7900 2300 50  0001 C CNN
+F 1 "PWR_FLAG" V 7900 2328 50  0000 L CNN
+F 2 "" H 7900 2200 50  0001 C CNN
+F 3 "~" H 7900 2200 50  0001 C CNN
+	1    7900 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7900 2200 7750 2200
+Connection ~ 7750 2200
+$Comp
+L Flag:PWR_FLAG #FLG0104
+U 1 1 5CD08862
+P 3800 5600
+F 0 "#FLG0104" H 3800 5700 50  0001 C CNN
+F 1 "PWR_FLAG" V 3800 5728 50  0000 L CNN
+F 2 "" H 3800 5600 50  0001 C CNN
+F 3 "~" H 3800 5600 50  0001 C CNN
+	1    3800 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 5600 3800 5600
+Connection ~ 3650 5600
+$EndSCHEMATC

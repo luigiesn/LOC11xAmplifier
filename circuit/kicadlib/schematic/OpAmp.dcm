@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TLV9001UIDBVR
+D Op-Amp RRIP 0.4mV Offset Low Power 1-MHz SMD SOT23-5
+F kicadlib\datasheet\tlv9001.pdf
+$ENDCMP
+#
+#End Doc Library

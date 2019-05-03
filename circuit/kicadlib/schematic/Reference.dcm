@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM4040EIM3X-3.0_NOPB
+D Voltage Reference 3.0V Shunt 2% 15ppm/ºC SMD SOT23-3
+F kicadlib/datasheet/tlv9001.pdf
+$ENDCMP
+#
+#End Doc Library

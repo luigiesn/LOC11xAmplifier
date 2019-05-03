@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name Capacitor)(type Legacy)(uri ${KIPRJMOD}/kicadlib/schematic/Capacitor.lib)(options "")(descr ""))
+  (lib (name Connector)(type Legacy)(uri ${KIPRJMOD}/kicadlib/schematic/Connector.lib)(options "")(descr ""))
+  (lib (name Flag)(type Legacy)(uri ${KIPRJMOD}/kicadlib/schematic/Flag.lib)(options "")(descr ""))
+  (lib (name OpAmp)(type Legacy)(uri ${KIPRJMOD}/kicadlib/schematic/OpAmp.lib)(options "")(descr ""))
+  (lib (name Optic)(type Legacy)(uri ${KIPRJMOD}/kicadlib/schematic/Optic.lib)(options "")(descr ""))
+  (lib (name Reference)(type Legacy)(uri ${KIPRJMOD}/kicadlib/schematic/Reference.lib)(options "")(descr ""))
+  (lib (name Resistor)(type Legacy)(uri ${KIPRJMOD}/kicadlib/schematic/Resistor.lib)(options "")(descr ""))
+)

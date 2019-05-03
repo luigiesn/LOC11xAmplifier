@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CC0603MRY5V6BB105
+D Multilayer Ceramic Capacitors MLCC - 1uF 10V 20% Y5V SMD 0603
+F kicadlib/datasheet/SMCMC_GP_HC_Y5V.pdf
+$ENDCMP
+#
+#End Doc Library

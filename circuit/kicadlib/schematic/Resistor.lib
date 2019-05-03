@@ -1,0 +1,148 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# RC0603FR-0714KL
+#
+DEF RC0603FR-0714KL R 0 0 N N 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "RC0603FR-0714KL" 0 -400 50 H I C CNN
+F2 "footprints:RES_0603" 0 400 50 H I C CNN
+F3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" 0 500 50 H I C CNN
+F4 "14k" 0 0 40 V V C CNN "Friendly Name"
+F5 "Yageo" 0 -550 50 H I C CNN "Manufactor"
+F6 "RC0603FR-0714KL" 0 -650 50 H I C CNN "Part Number"
+F7 "Thick Film Resistors - 14kohms 1% SMD 0603" 0 -800 50 H I C CNN "Description"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603FR-07180KL
+#
+DEF RC0603FR-07180KL R 0 0 N N 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "RC0603FR-07180KL" 0 -400 50 H I C CNN
+F2 "footprints:RES_0603" 0 400 50 H I C CNN
+F3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" 0 500 50 H I C CNN
+F4 "180k" 0 0 40 V V C CNN "Friendly Name"
+F5 "Yageo" 0 -550 50 H I C CNN "Manufactor"
+F6 "RC0603FR-07180KL" 0 -650 50 H I C CNN "Part Number"
+F7 "Thick Film Resistors - 180kohms 1% SMD 0603" 0 -800 50 H I C CNN "Description"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603FR-0721KL
+#
+DEF RC0603FR-0721KL R 0 0 N N 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "RC0603FR-0721KL" 0 -400 50 H I C CNN
+F2 "footprints:RES_0603" 0 400 50 H I C CNN
+F3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" 0 500 50 H I C CNN
+F4 "21k" 0 0 40 V V C CNN "Friendly Name"
+F5 "Yageo" 0 -550 50 H I C CNN "Manufactor"
+F6 "RC0603FR-0721KL" 0 -650 50 H I C CNN "Part Number"
+F7 "Thick Film Resistors - 21kohms 1% SMD 0603" 0 -800 50 H I C CNN "Description"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603FR-0734K8L
+#
+DEF RC0603FR-0734K8L R 0 0 N N 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "RC0603FR-0734K8L" 0 -400 50 H I C CNN
+F2 "footprints:RES_0603" 0 400 50 H I C CNN
+F3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" 0 500 50 H I C CNN
+F4 "34.8k" 0 0 40 V V C CNN "Friendly Name"
+F5 "Yageo" 0 -550 50 H I C CNN "Manufactor"
+F6 "RC0603FR-0734K8L" 0 -650 50 H I C CNN "Part Number"
+F7 "Thick Film Resistors - 34.8kohms 1% SMD 0603" 0 -800 50 H I C CNN "Description"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603FR-07430RL
+#
+DEF RC0603FR-07430RL R 0 0 N N 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "RC0603FR-07430RL" 0 -400 50 H I C CNN
+F2 "footprints:RES_0603" 0 400 50 H I C CNN
+F3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" 0 500 50 H I C CNN
+F4 "430" 0 0 40 V V C CNN "Friendly Name"
+F5 "Yageo" 0 -550 50 H I C CNN "Manufactor"
+F6 "RC0603FR-07430RL" 0 -650 50 H I C CNN "Part Number"
+F7 "Thick Film Resistors - 430 ohms 1% SMD 0603" 0 -800 50 H I C CNN "Description"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603FR-0775KL
+#
+DEF RC0603FR-0775KL R 0 0 N N 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "RC0603FR-0775KL" 0 -400 50 H I C CNN
+F2 "footprints:RES_0603" 0 400 50 H I C CNN
+F3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" 0 500 50 H I C CNN
+F4 "75k" 0 0 40 V V C CNN "Friendly Name"
+F5 "Yageo" 0 -550 50 H I C CNN "Manufactor"
+F6 "RC0603FR-0775KL" 0 -650 50 H I C CNN "Part Number"
+F7 "Thick Film Resistors - 75kohms 1% SMD 0603" 0 -800 50 H I C CNN "Description"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603FR-0791KL
+#
+DEF RC0603FR-0791KL R 0 0 N N 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "RC0603FR-0791KL" 0 -400 50 H I C CNN
+F2 "footprints:RES_0603" 0 400 50 H I C CNN
+F3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" 0 500 50 H I C CNN
+F4 "91k" 0 0 40 V V C CNN "Friendly Name"
+F5 "Yageo" 0 -550 50 H I C CNN "Manufactor"
+F6 "RC0603FR-0791KL" 0 -650 50 H I C CNN "Part Number"
+F7 "Thick Film Resistors - 91kohms 1% SMD 0603" 0 -800 50 H I C CNN "Description"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0603FR-0791RL
+#
+DEF RC0603FR-0791RL R 0 0 N N 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "RC0603FR-0791RL" 0 -400 50 H I C CNN
+F2 "footprints:RES_0603" 0 400 50 H I C CNN
+F3 "${KIPRJMOD}/kicadlib/datasheet/RC_L_Series.pdf" 0 500 50 H I C CNN
+F4 "91" 0 0 40 V V C CNN "Friendly Name"
+F5 "Yageo" 0 -550 50 H I C CNN "Manufactor"
+F6 "RC0603FR-0791RL" 0 -650 50 H I C CNN "Part Number"
+F7 "Thick Film Resistors - 91ohms 1% SMD 0603" 0 -800 50 H I C CNN "Description"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
