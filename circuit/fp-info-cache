@@ -1,1 +1,43 @@
+9324054552665
+footprints
+4P_PLATING1.1MM_HOLE2.54MM
+
+
 0
+8
+4
+footprints
+CAP_0603
+
+
+0
+2
+2
+footprints
+R_0603
+
+
+0
+2
+2
+footprints
+SO8_LOC110P
+
+
+0
+8
+8
+footprints
+SOT23-3_LM4040N
+Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0805
+0
+3
+3
+footprints
+SOT23-5_TLV9001
+Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)
+resistor 0805
+0
+5
+5
