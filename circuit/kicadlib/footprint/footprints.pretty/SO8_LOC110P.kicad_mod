@@ -1,4 +1,4 @@
-(module SO8_LOC110P (layer F.Cu) (tedit 5CC9AE95)
+(module SO8_LOC110P (layer F.Cu) (tedit 5CCDD4C8)
   (fp_text reference REF** (at 0 5.715) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.1143)))
   )
@@ -22,4 +22,9 @@
   (pad 3 smd oval (at -4.35 1.27) (size 1.55 0.65) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd oval (at -4.35 -1.27) (size 1.55 0.65) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd oval (at -4.35 -3.81) (size 1.55 0.65) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/kicadlib/3d/SSO_8.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.9 1 0.6))
+    (rotate (xyz 0 0 0))
+  )
 )
