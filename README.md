@@ -20,7 +20,7 @@ O projeto foi feito agora precisa ser testado :)
 | Corrente Quiescente do Estágio de Saída | Vs_2 = 3.3 V, V_in = 0 | I_q2 | - | 3.3 | - | mA |
 | **Amplificador** |
 | Tensão de Entrada | - | V_in | -250 | - | 250 | mV |
-| Impedância de Entrada |  - | Z_in | - | 60.44 | - | Ω |
+| Impedância de Entrada |  - | Z_in | - | 60.44 | - | kΩ |
 | Tensão de _Offset_ de Saída | - | V_off | - | 1.535 | - | V |
 | Corrente Máxima de Saída | Vs_2 = 3.15 V |  | - | - | 1.5 |  |
 |                          | Vs_2 = 3.3 V | I_o | - | - | 3.1 | mA |
