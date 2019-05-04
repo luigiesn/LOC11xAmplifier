@@ -10,6 +10,14 @@
   )
 
   (page A4)
+  (title_block
+    (title "LOC11x Amplifier")
+    (date 2019-05-04)
+    (rev 1.1)
+    (comment 1 LOC11xAmplifier)
+    (comment 2 "4x gain optically isolated amplifier")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
