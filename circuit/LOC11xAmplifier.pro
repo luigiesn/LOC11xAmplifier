@@ -1,4 +1,4 @@
-update=03/05/2019 23:16:49
+update=03/05/2019 23:42:54
 version=1
 last_client=kicad
 [general]
@@ -242,7 +242,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=kicadlib/worksheet/luigiesnWorksheet.kicad_wks
 PlotDirectoryName=../preview/
 SubpartIdSeparator=0
 SubpartFirstId=65

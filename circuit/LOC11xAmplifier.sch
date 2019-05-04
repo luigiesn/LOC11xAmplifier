@@ -7,9 +7,9 @@ encoding utf-8
 Sheet 1 1
 Title "LOC11x Amplifier"
 Date "2019-05-01"
-Rev "1.0"
+Rev "1.1"
 Comp ""
-Comment1 "github: @luigiesn / insta: @luigithings"
+Comment1 "LOC11xAmplifier"
 Comment2 "4x gain optically isolated amplifier"
 Comment3 ""
 Comment4 ""
